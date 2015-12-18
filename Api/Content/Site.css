@@ -1,0 +1,42 @@
+﻿@import url('side-navigation.css');
+@import url('main-header.css');
+@import url('main-footer.css');
+@import url('main-section.css');
+
+html, body {
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f4;
+    color: #676a6c;
+}
+
+.box {
+    border: 1px dashed red;
+}
+
+.display-table {
+    display: table;
+    width: 100%;
+    padding: 0px;
+}
+
+.display-table-row {
+    display: table-row;
+    height: 100%;
+}
+
+.display-table-cell {
+    display: table-cell;
+    height: 100%;
+    float: none;
+}
+
+.vertical-align {
+    vertical-align: top;
+}
+
+
+#wrapper {
+    min-height: 100vh;
+}
+

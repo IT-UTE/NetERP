@@ -1,0 +1,42 @@
+﻿#main-header {
+    background-color: #fff;
+    border-bottom: 2px solid #1ab994;
+}
+
+    #main-header #page-location {
+        padding: 15px;
+    }
+
+    #main-header ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+
+        #main-header ul .glyphicon {
+            color: #676a6c;
+        }
+
+        #main-header ul li {
+            float: left;
+            padding: 20px 15px 13px 15px;
+            border-left: 1px solid #f3f3f4;
+        }
+
+            #main-header ul li a {
+                text-decoration: none;
+            }
+
+            #main-header ul li:hover {
+                background-color: #f3f3f4;
+            }
+
+        #main-header ul .label {
+            position: absolute;
+            margin-top: -7px;
+            margin-left: 5px;
+        }
+
+    #main-header .fix-width {
+        width: 45px;
+    }

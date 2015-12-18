@@ -1,0 +1,76 @@
+﻿#side-navigation {
+    background-color: #2f4050;
+    padding: 0px;
+}
+
+    #side-navigation h1 {
+        color: #1ab994;
+        text-align: center;
+        margin: 0px auto;
+        padding: 15px;
+        font-size: 1.5em;
+        background-color: #293846;
+        border-bottom: 2px solid #293846;
+    }
+
+    #side-navigation ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+    }
+
+    #side-navigation a {
+        padding: 12px 20px;
+        text-decoration: none;
+        border-left: 2px solid #293846;
+        color: #9fb1c2;
+        font-weight: 500;
+        font-size: 1.1em;
+        display: block;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        -webkit-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+    }
+
+    #side-navigation > ul > li > a:hover {
+        background-color: #293846;
+        border-left: 2px solid #1ab994;
+        color: #fff;
+    }
+
+    #side-navigation .active > a {
+        background-color: #293846;
+        border-left: 2px solid #1ab994;
+    }
+
+    #side-navigation .active .collapseable {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #side-navigation .collapseable {
+        background-color: #293846;
+        visibility: hidden;
+        opacity: 0;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        -webkit-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+    }
+
+        #side-navigation .collapseable li {
+            padding-left: 20px;
+        }
+
+        #side-navigation .collapseable a {
+            color: #9fb1c2;
+            font-size: 1em;
+            padding: 7px 10px;
+            text-decoration: none;
+        }
+
+            #side-navigation .collapseable a:hover {
+                color: #fff;
+            }
